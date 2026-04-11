@@ -2,5 +2,5 @@
 
 * 45383916 - new cast device dialog popup (bottom swipeable)
 * 45677954 - enables the new "your queue" when sliding up
-* 45688384 - bolder delhi icons, blocking it only affects some parts
-* 45697227 - smaller filter bar buttons
+* 45688384 - bolder delhi icons, blocking it reverts the icons back to thin style in some areas
+* 45697227 - smaller category bar buttons
