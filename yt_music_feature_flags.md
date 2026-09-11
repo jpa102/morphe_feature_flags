@@ -6,6 +6,10 @@
 >
 > **legend**: flags marked with ! are inactive and can be forced *(requires 1.42.0 patches)*,  ゜ have a different behavior *(buggy a/b testing flag? a "dependency" of a flag? short-lived a/b testing flag? buggy when blocked? only god knows this)*
 
+> [!WARNING]
+>
+> do not use spoof app version when blocking or unblocking flags, as some flags are bound to the app version the server responds
+
 # from 9.13.50 (experimental version)
 
 * 45383916 - new cast device dialog popup (bottom swipeable)
@@ -23,7 +27,9 @@
 * 45671274 - remove the "Song" and "Video" switching mechanism in player !
 * 45673420 - new cast dialog ui design that displays an http 400 for some reason? !
 * 45715290 - THIS WILL CRASH THE APP WHEN INTERNET CONNECTION IS DETECTED !
+* 45717907 - account display name and account handle texts in profile switches to the light background variant (text becomes black for light backgrounds) !
+* 45719876, 45754085 - makes the app behave like a network error happened ! ゜
 * 45730033 - red and magenta gradient seekbar color !
 * 45749973 - THIS WILL FREEZE THE APP WHEN INTERNET CONNECTION IS DETECTED !
-* 45762151 - video is spread throughout the player interface (example: 16:9 music video cropped and stretched to 9:16 ratio style) !
+* 45679250, 45762151, _ - video or music thumbnail can be spread throughout the player interface (example: 16:9 music video cropped and stretched to 9:16 ratio style), tap to undo filling the entire screen ! ゜
 * 45767191 - only the like, dislike, and download buttons are rendered in the player !
