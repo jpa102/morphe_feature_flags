@@ -23,4 +23,7 @@
 * 45671274 - remove the "Song" and "Video" switching mechanism in player !
 * 45673420 - new cast dialog ui design that displays an http 400 for some reason? !
 * 45715290 - THIS WILL CRASH THE APP WHEN INTERNET CONNECTION IS DETECTED !
-* 45730033 - red and magenta gradient seekbar color
+* 45730033 - red and magenta gradient seekbar color !
+* 45749973 - THIS WILL FREEZE THE APP WHEN INTERNET CONNECTION IS DETECTED !
+* 45762151 - video is spread throughout the player interface (example: 16:9 music video cropped and stretched to 9:16 ratio style) !
+* 45767191 - only the like, dislike, and download buttons are rendered in the player !
