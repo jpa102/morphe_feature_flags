@@ -4,11 +4,9 @@
 > 
 > these may be only available for a certain amount of time
 >
-> **legend**: flags marked with ! are inactive and can be forced *(requires 1.42.0 patches)*,  ゜ have a different behavior *(buggy a/b testing flag? a "dependency" of a flag? short-lived a/b testing flag? buggy when blocked? only god knows this)*
-
-> [!WARNING]
+> **legend**: flags marked with `$` are inactive and can be forced *(requires 1.42.0 patches)*, `゜` has a different behavior *(buggy a/b testing flag? a "dependency" of a flag? short-lived a/b testing flag? buggy when blocked? only god knows this)*
 >
-> do not use spoof app version when blocking or unblocking flags, as some flags are bound to the app version the server responds
+> it is advised that you do not use settings like spoof app version as some flags are bound to the app version the server responds
 
 # from 9.13.50 (experimental version)
 
@@ -21,15 +19,15 @@
 <!--* 45732758 - unknown-->
 * 45739191 - old 'Song' and 'Video' labels in player
 * 45756183 - '>' arrow besides the music title in player
-* 45642407 - some color-coded debug popup about "flash call time" !
-* 45658717 - swap the action buttons and music controls in player !
+* 45642407 - some color-coded debug popup about "flash call time" `$`
+* 45658717 - swap the action buttons and music controls in player `$`
 * 45659062 - old thin seekbar
-* 45671274 - remove the "Song" and "Video" switching mechanism in player !
-* 45673420 - new cast dialog ui design that displays an http 400 for some reason? !
-* 45715290 - THIS WILL CRASH THE APP WHEN INTERNET CONNECTION IS DETECTED !
-* 45717907 - account display name and account handle texts in profile switches to the light background variant (text becomes black for light backgrounds) !
-* 45719876, 45754085 - makes the app behave like a network error happened ! ゜
-* 45730033 - red and magenta gradient seekbar color !
-* 45749973 - THIS WILL FREEZE THE APP WHEN INTERNET CONNECTION IS DETECTED !
-* 45679250, 45762151, _ - video or music thumbnail can be spread throughout the player interface (example: 16:9 music video cropped and stretched to 9:16 ratio style), tap to undo filling the entire screen ! ゜
-* 45767191 - only the like, dislike, and download buttons are rendered in the player !
+* 45671274 - remove the "Song" and "Video" switching mechanism in player `$`
+* 45673420 - new cast dialog ui design that displays an http 400 for some reason? `$`
+* 45715290 - THIS WILL CRASH THE APP WHEN INTERNET CONNECTION IS DETECTED `$`
+* 45717907 - account display name and account handle texts in profile switches to the light background variant (text becomes black for light backgrounds) `$`
+* 45730033 - red and magenta gradient seekbar color `$`
+* 45749973 - THIS WILL FREEZE THE APP WHEN INTERNET CONNECTION IS DETECTED `$`
+* 45754085 - displays "An error occured" on most parts of the app `$` `゜`
+* 45679250, 45762151, _ - video or music thumbnail can be spread throughout the player interface (example: 16:9 music video cropped and stretched to 9:16 ratio style), tap to undo filling the entire screen `$` `゜`
+* 45767191 - only the like, dislike, and download buttons are rendered in the player `$`
