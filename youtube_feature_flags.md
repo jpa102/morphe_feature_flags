@@ -34,3 +34,6 @@
 * 45630927, 45631257, 45647369 - translucent blur effect at the bottom navigation bar, originally enabled for capable devices `$` `゜`
 * 45685200 - cat icons everywhere `$`
 * 45708621 - THIS WILL CRASH THE APP IMMEDIATELY `$`
+* 45782412 - "You" navigation button multiple profiles animation on startup `$`
+<!--* 45788981 - THIS WILL FREEZE THE APP (unconfirmed)-->
+* 45830793 - different font for navigation bar button labels `$`
