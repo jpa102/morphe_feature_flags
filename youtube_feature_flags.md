@@ -1,12 +1,19 @@
 > [!NOTE]
 >
-> some flags can also show up on the suggested versions of youtube
-> 
-> these may be only available for a certain amount of time
+> some flags can also show up on the suggested versions of youtube. these may be only available for a certain amount of time
 >
-> **legend**: flags marked with `$` are inactive flags,  `゜` has a different behavior *(buggy a/b testing flag? a "dependency" of a flag? short-lived a/b testing flag? buggy when blocked? only god knows this)*
+> sometimes, blocking certain flags causes other flags to appear with unseen functionalities
 >
-> it's advised that you do not use settings like spoof app version or disable layout updates as some flags are bound to the app version the server responds
+> **legend**:
+> `！` are unconfirmed flags
+> `$` are inactive flags
+> `？` are flags that only show up when blocking other flags
+> `×` are flags that only work when other flags are blocked
+> `゜` has a different behavior *(buggy a/b testing flag? a "dependency" of a flag? short-lived a/b testing flag? buggy when blocked? only god knows this)*
+>
+> it's advised that you do not use settings like spoof app version or disable layout updates, as some flags are bound to the app version the server responds
+
+***
 
 # from 21.14.484
 
@@ -27,13 +34,16 @@
 
 # from 21.36.45-SECONDARY
 
+* 45698813 - seekbar disappears if blocked when "Restore old player button style" is enabled
 * 45621960 - increased top and bottom padding of bottom navigation bar `$`
 * 45624413 - long press a bottom navigation button to quickly navigate to that page `$`
-* 45625289 - THIS WILL CRASH THE APP WHEN SWITCHING TO TABS LIKE SEARCH, SUBSCRIPTIONS, NOTIFICATIONS, LIBRARY, AND OTHERS `$`
+* 45625289 - THIS WILL CRASH THE APP WHEN SWITCHING TO PAGES LIKE SEARCH, SUBSCRIPTIONS, NOTIFICATIONS, LIBRARY, AND OTHERS `$`
 * 45642407 - some color-coded debug popup about "flash call time" `$`
 * 45630927, 45631257, 45647369 - translucent blur effect at the bottom navigation bar, originally enabled for capable devices `$` `゜`
 * 45685200 - cat icons everywhere `$`
 * 45708621 - THIS WILL CRASH THE APP IMMEDIATELY `$`
+* 45764742 - display shorts from grid formation to one huge vertical list `$` `？`
 * 45782412 - "You" navigation button multiple profiles animation on startup `$`
-<!--* 45788981 - THIS WILL FREEZE THE APP (unconfirmed)-->
+* 45788981 - THIS WILL FREEZE THE APP `$` `×`
+* 45798295 - causes the feed to not display anything (videos, shorts, etc...) `$` `×`
 * 45830793 - different font for navigation bar button labels `$`
