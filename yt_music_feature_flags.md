@@ -1,10 +1,15 @@
 > [!NOTE]
 >
-> some flags can also show up on the suggested versions of yt music
-> 
-> these may be only available for a certain amount of time
+> some flags can also show up on the suggested versions of yt music. these may be only available for a certain amount of time
 >
-> **legend**: flags marked with `$` are inactive and can be forced *(requires 1.42.0 patches)*, `゜` has a different behavior *(buggy a/b testing flag? a "dependency" of a flag? short-lived a/b testing flag? buggy when blocked? only god knows this)*
+> sometimes, blocking certain flags causes other flags to appear with unseen functionalities
+>
+> **legend**:
+> * `!` are unconfirmed flags
+> * `$` are inactive flags
+> * `？` are flags that only show up when blocking other flags
+> * `×` are flags that only work when other flags are blocked
+> * `゜` has a different behavior *(buggy a/b testing flag? a "dependency" of a flag? short-lived a/b testing flag? buggy when blocked? only god knows this)*
 >
 > it is advised that you do not use settings like spoof app version as some flags are bound to the app version the server responds
 
@@ -31,3 +36,5 @@
 * 45754085 - displays "An error occured" on most parts of the app `$` `゜`
 * 45679250, 45762151, _ - video or music thumbnail can be spread throughout the player interface (example: 16:9 music video cropped and stretched to 9:16 ratio style), tap to undo filling the entire screen `$` `゜`
 * 45767191 - only the like, dislike, and download buttons are rendered in the player `$`
+* 45774226 - track will not play (like cold starting the app where the miniplayer shows up if a track was previously playing) but switching to another track will cause it to crash `$`
+* 45775212 - will not play any tracks with a playback id error `$`
