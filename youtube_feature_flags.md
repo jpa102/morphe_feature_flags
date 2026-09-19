@@ -3,7 +3,7 @@
 > some flags can also show up on the suggested versions of youtube. these may be only available for a certain amount of time
 >
 > sometimes, blocking certain flags causes other flags to appear with unseen functionalities
->
+
 > **legend**:
 > * `！` are unconfirmed flags
 > * `$` are inactive flags
@@ -44,7 +44,7 @@
 * 45708621 - THIS WILL CRASH THE APP IMMEDIATELY `$`
 * 45764742 - display shorts from grid formation to one huge vertical list `$` `？`
 * 45782412 - "You" navigation button multiple profiles animation on startup `$`
-* 45787913 - white-colored seekbar on shorts player `$`
+* 45787913 - white-colored seekbar on shorts player
 * 45788981 - THIS WILL FREEZE THE APP `$` `×`
 * 45798295 - causes the feed to not display anything (videos, shorts, etc...) `$` `×`
 * 45830793 - different font for navigation bar button labels `$`
