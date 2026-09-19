@@ -5,11 +5,11 @@
 > sometimes, blocking certain flags causes other flags to appear with unseen functionalities
 >
 > **legend**:
-> `！` are unconfirmed flags
-> `$` are inactive flags
-> `？` are flags that only show up when blocking other flags
-> `×` are flags that only work when other flags are blocked
-> `゜` has a different behavior *(buggy a/b testing flag? a "dependency" of a flag? short-lived a/b testing flag? buggy when blocked? only god knows this)*
+> * `！` are unconfirmed flags
+> * `$` are inactive flags
+> * `？` are flags that only show up when blocking other flags
+> * `×` are flags that only work when other flags are blocked
+> * `゜` has a different behavior *(buggy a/b testing flag? a "dependency" of a flag? short-lived a/b testing flag? buggy when blocked? only god knows this)*
 >
 > it's advised that you do not use settings like spoof app version or disable layout updates, as some flags are bound to the app version the server responds
 
@@ -44,6 +44,7 @@
 * 45708621 - THIS WILL CRASH THE APP IMMEDIATELY `$`
 * 45764742 - display shorts from grid formation to one huge vertical list `$` `？`
 * 45782412 - "You" navigation button multiple profiles animation on startup `$`
+* 45787913 - white-colored seekbar on shorts player `$`
 * 45788981 - THIS WILL FREEZE THE APP `$` `×`
 * 45798295 - causes the feed to not display anything (videos, shorts, etc...) `$` `×`
 * 45830793 - different font for navigation bar button labels `$`
