@@ -37,7 +37,7 @@
 * 45739191 - new 'Song' and 'Video' switching mechanism in player (removes labels)
 * 45749973 - THIS WILL FREEZE THE APP WHEN INTERNET CONNECTION IS DETECTED `$`
 * 45754085 - displays "An error occured" on most parts of the app `$` `゜`
-* 45762151, `45679250` - video or music thumbnail can be spread throughout the player interface (example: 16:9 music video cropped and stretched to 9:16 ratio style), tap to undo filling the entire screen `$` `゜`
+* 45762151, `45746502`, `45679250` - "immersive mode", video or music thumbnail can be spread throughout the player interface (example: 16:9 music video cropped and stretched to 9:16 ratio style), tap to undo filling the entire screen `$` `゜`
 * 45756183 - gray '>' arrow besides the music title in player
 * 45767191 - only the like, dislike, and download buttons are rendered in the player `$`
 * 45774226 - track will not play (like cold starting the app where the miniplayer shows up if a track was previously playing) but switching to another track will cause it to crash `$`
