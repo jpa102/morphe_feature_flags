@@ -3,13 +3,14 @@
 > some flags can also show up on the suggested versions of youtube. these may be only available for a certain amount of time
 >
 > sometimes, blocking certain flags causes other flags to appear with unseen functionalities
-
+>
 > **legend**:
 > * `！` are unconfirmed flags
 > * `$` are inactive flags
 > * `？` are flags that only show up when blocking other flags
 > * `×` are flags that only work when other flags are blocked
 > * `゜` has a different behavior *(buggy a/b testing flag? a "dependency" of a flag? short-lived a/b testing flag? buggy when blocked? only god knows this)*
+> * flags that are `styled` like this need to be active for the feature to work properly
 >
 > it's advised that you do not use settings like spoof app version or disable layout updates, as some flags are bound to the app version the server responds
 
@@ -39,7 +40,7 @@
 * 45624413 - long press a bottom navigation button to quickly navigate to that page `$`
 * 45625289 - THIS WILL CRASH THE APP WHEN SWITCHING TO PAGES LIKE SEARCH, SUBSCRIPTIONS, NOTIFICATIONS, LIBRARY, AND OTHERS `$`
 * 45642407 - some color-coded debug popup about "flash call time" `$`
-* 45630927, 45631257, 45647369 - translucent blur effect at the bottom navigation bar, originally enabled for capable devices `$` `゜`
+* 45630927, 45631257, 45632194, 45647369 - translucent blur effect at the bottom navigation bar, originally enabled for capable devices `$` `゜`
 * 45685200 - cat icons everywhere `$`
 * 45708621 - THIS WILL CRASH THE APP IMMEDIATELY `$`
 * 45764742 - display shorts from grid formation to one huge vertical list `$` `？`
