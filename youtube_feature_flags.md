@@ -4,6 +4,8 @@
 >
 > sometimes, blocking certain flags causes other flags to appear with unseen functionalities
 >
+> in some versions, the flags can appear as inactive while active on newer versions, and vice versa. they can even be tied to your account
+>
 > **legend**:
 > * `！` are unconfirmed flags
 > * `$` are inactive flags
@@ -49,3 +51,7 @@
 * 45788981 - THIS WILL FREEZE THE APP `$` `×`
 * 45798295 - causes the feed to not display anything (videos, shorts, etc...) `$` `×`
 * 45830793 - different font for navigation bar button labels `$`
+
+# from 21.42.243
+
+* 45817650 - colored gradient effect inside "You / Library" page (like in YT Music) `゜`
