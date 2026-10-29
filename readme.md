@@ -4,7 +4,7 @@ this is `more_feature_flags`, a repository filled with collection of feature fla
 
 it's called "more" because **Mo**rphe + **Re**seam = **MoRe**, you get me?
 
-and because the name "**MoRe**" implies that there are **more** feature flags that are yet to be uncovered
+and because the name "**MoRe**" implies there are **more** feature flags that are yet to be uncovered
 
 ***
 
@@ -16,7 +16,7 @@ if you found feature flag(s) that look interesting, pretty sure the morphe and r
 
 go to Debugging inside Miscellaneous at Morphe settings *(example: youtube → settings → morphe → miscellaneous)*, then enable **Debug logging** and restart the app *(like **end** the app from your recents, okay?)*
 
-on your restart, you will see the feature flags in **numerical order**. they are **unreadable** for sure but once you identify what it does based on **blocking** and **unblocking** them, you can start labeling them with a **clear description** *(use a note app for example, on pc with [scrcpy](https://github.com/Genymobile/scrcpy) it's more convenient, or whatever suits you best)*
+on your restart, you will see the feature flags in **numerical order**. they are **unreadable** for sure but once you identify what it does based on **blocking** and **unblocking** them, you can start labeling them with a **clear description** and their behavior when blocked or unblocked / forced *(use a note app for example, on pc with [scrcpy](https://github.com/Genymobile/scrcpy) it's more convenient, or whatever suits you best)*
 
 # note
 
@@ -24,6 +24,8 @@ sometimes, flags are only **specific** to an app version, therefore you need to 
 
 you can either create your **own** repository for flags, or freely share them **here** so they're in one place
 
+with that said, are you up for the challenge finding and documenting feature flags in apps?
+
 ***
 
-with that said, are you up for the challenge finding and documenting feature flags in apps?
+<sup>[notably featured in Jman-Github's Awesome Android Patching repository, listed as a project](https://github.com/Jman-Github/Awesome-Android-Patching)</sup>
