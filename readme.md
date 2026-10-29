@@ -1,12 +1,18 @@
 # you want it? you find it!
 
-this is `morphe_feature_flags`, a repository filled with collection of feature flags from apps patched with [Morphe](https://github.com/MorpheApp/morphe-patches) *(only applicable if it has **Feature Flags Manager** in Morphe settings → Miscellaneous, in the patched application or similar)*
+this is `more_feature_flags`, a repository filled with collection of feature flags for apps patched with [Morphe](https://github.com/MorpheApp/morphe-patches) and [Reseam](https://git.reseam.app/reseam/patches) *(applicable if it has a **Feature Flags Manager** in settings → Miscellaneous, in the patched application or similar)*. it's also compatible with reseam at least to my limited testing
 
-if you find a bug at [`morphe-patches`](https://github.com/MorpheApp/morphe-patches/issues) and identified a feature flag that somehow solves it, you can provide the flag to them and they could implement a solution for it
+it's called "more" because **Mo**rphe + **Re**seam = **MoRe**, you get me?
 
-if you find feature flag(s) that look interesting, pretty sure the morphe contributors would also take interest into it and possibly develop a patch
+and because the name "**MoRe**" implies that there are **more** feature flags that are yet to be uncovered
 
-# getting started
+***
+
+if you found a bug and identified a feature flag that somehow solves it, you can provide the flag to them and they could implement a solution for it. users can also test it out
+
+if you found feature flag(s) that look interesting, pretty sure the morphe and reseam contributors would also take interest into it and possibly develop a patch
+
+# getting started (morphe)
 
 go to Debugging inside Miscellaneous at Morphe settings *(example: youtube → settings → morphe → miscellaneous)*, then enable **Debug logging** and restart the app *(like **end** the app from your recents, okay?)*
 
