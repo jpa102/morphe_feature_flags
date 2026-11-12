@@ -1,16 +1,12 @@
 # you want it? you find it!
 
-this is `more_feature_flags`, a repository filled with collection of feature flags for apps patched with [Morphe](https://github.com/MorpheApp/morphe-patches) and [Reseam](https://git.reseam.app/reseam/patches) *(applicable if it has a **Feature Flags Manager** in settings → Miscellaneous, in the patched application or similar)*. it's also compatible with reseam at least to my limited testing
-
-it's called "more" because **Mo**rphe + **Re**seam = **MoRe**, you get me?
-
-and because the name "**MoRe**" implies there are **more** feature flags that are yet to be uncovered
+this is `morphe_feature_flags`, a repository filled with collection of feature flags for apps patched with [Morphe](https://github.com/MorpheApp/morphe-patches) *(applicable if it has a **Feature Flags Manager** in settings → Miscellaneous, in the patched application or similar)*. it also works with reseam, at least to my limited testing (and possibly others)
 
 ***
 
 if you found a bug and identified a feature flag that somehow solves it, you can provide the flag to them and they could implement a solution for it. users can also test it out
 
-if you found feature flag(s) that look interesting, pretty sure the morphe and reseam contributors would also take interest into it and possibly develop a patch
+if you found feature flag(s) that look interesting, pretty sure the developers would also take interest into it and possibly develop a patch
 
 # getting started (morphe)
 
@@ -28,4 +24,4 @@ with that said, are you up for the challenge finding and documenting feature fla
 
 ***
 
-<sup>[notably featured in Jman-Github's Awesome Android Patching repository, listed as a project](https://github.com/Jman-Github/Awesome-Android-Patching)</sup>
+<sup>[notably featured in Jman-Github's "Awesome Android Patching" repository, listed as a project](https://github.com/Jman-Github/Awesome-Android-Patching)</sup>
